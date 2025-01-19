@@ -4,8 +4,6 @@
 
 A modern contact form application built with Next.js 15, TypeScript, and various cutting-edge technologies.
 
-![Hero Image](/public/landingpage.png)
-
 [![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Resend](https://img.shields.io/badge/Resend-black?style=for-the-badge&logo=resend&logoColor=white)](https://resend.com/)
@@ -107,7 +105,7 @@ This will start the React Email preview server at [http://localhost:3001](http:/
 
 ### Motion & Feedback
 
-- **[Motion One](https://motion.dev/)** - Animation library
+- **[Motion](https://motion.dev/)** - Animation library
 - **[Sonner](https://sonner.emilkowal.ski/)** - Toast notifications
 
 </details>
