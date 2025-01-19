@@ -4,11 +4,14 @@
 
 A modern contact form application built with Next.js 15, TypeScript, and various cutting-edge technologies.
 
+![Hero Image](/public/landingpage.png)
+
 [![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Resend](https://img.shields.io/badge/Resend-FF4F64?style=for-the-badge&logo=resend&logoColor=white)](https://resend.com/)
+[![Resend](https://img.shields.io/badge/Resend-black?style=for-the-badge&logo=resend&logoColor=white)](https://resend.com/)
 [![React Email](https://img.shields.io/badge/React_Email-3068B7?style=for-the-badge&logo=react&logoColor=white)](https://react.email/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white)](https://ui.shadcn.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
 </div>
