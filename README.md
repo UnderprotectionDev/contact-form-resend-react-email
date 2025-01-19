@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# Contact Form with Resend and React Email 📧
 
-First, run the development server:
+A modern contact form application built with Next.js 15, TypeScript, and various cutting-edge technologies.
+
+[![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Resend](https://img.shields.io/badge/Resend-FF4F64?style=for-the-badge&logo=resend&logoColor=white)](https://resend.com/)
+[![React Email](https://img.shields.io/badge/React_Email-3068B7?style=for-the-badge&logo=react&logoColor=white)](https://react.email/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+
+</div>
+
+---
+
+## ✨ Features
+
+<div align="center">
+
+| Feature              | Description                                          |
+| -------------------- | ---------------------------------------------------- |
+| 🎨 **Modern UI/UX**  | Beautiful and intuitive interface using Tailwind CSS |
+| 🔒 **Email Sending** | Secure email sending with Resend and React Email     |
+| 📱 **Responsive**    | Fully responsive design for all devices              |
+| ✍️ **Contact Form**  | Easy-to-use contact form for user inquiries          |
+
+</div>
+
+## 🚀 Quick Start
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/contact-form-resend-react-email.git
+cd contact-form-resend-react-email
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+# or
+pnpm install
+# or
+yarn install
+```
+
+3. **Set up environment variables**
+   Create a `.env` file in the root directory and add:
+
+```env
+RESEND_API_KEY=your_resend_api_key
+```
+
+4. **Start the development server**
 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
 pnpm dev
 # or
-bun dev
+yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application running.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+6. **Start React Email development server** (optional)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run email
+```
 
-## Learn More
+This will start the React Email preview server at [http://localhost:3001](http://localhost:3001)
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<details>
+<summary>Click to expand tech stack details</summary>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Core Framework
 
-## Deploy on Vercel
+- **[Next.js 15](https://nextjs.org/)** - React framework for production
+- **[TypeScript](https://www.typescriptlang.org/)** - Static type checking
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Email Services
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **[Resend](https://resend.com/)** - Modern email delivery service
+- **[React Email](https://react.email/)** - Email template builder for React
+
+### Form Management
+
+- **[React Hook Form](https://react-hook-form.com/)** - Form validation
+- **[Zod](https://zod.dev/)** - TypeScript-first schema validation
+- **[Next Safe Action](https://next-safe-action.dev/)** - Type-safe server actions
+
+### UI Components & Styling
+
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[Shadcn UI](https://ui.shadcn.com/)** - Re-usable components
+- **[Lucide Icons](https://lucide.dev/)** - Beautiful open-source icons
+
+### Motion & Feedback
+
+- **[Motion One](https://motion.dev/)** - Animation library
+- **[Sonner](https://sonner.emilkowal.ski/)** - Toast notifications
+
+</details>
+
+## 📸 Screenshots
+
+<div align="center">
+
+### Contact Form
+
+![Contact Form](/public/contact-form.png)
+
+### Email Template
+
+![Email Template](/public/react-email.png)
+
+</div>
+
+## 🔐 Environment Variables
+
+To run this project, you will need to add the following environment variables to your `.env` file:
+
+| Variable         | Description                      |
+| ---------------- | -------------------------------- |
+| `RESEND_API_KEY` | API key for Resend email service |
+
+```
+RESEND_API_KEY=
+```

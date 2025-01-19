@@ -24,9 +24,9 @@ interface ContactFormEmailProps {
 }
 
 export default function ContactFormEmail({
-  name = "John Doe",
-  email = "john.doe@example.com",
-  message = "This is a test message",
+  name,
+  email,
+  message,
 }: ContactFormEmailProps) {
   return (
     <Html>

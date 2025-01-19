@@ -18,7 +18,7 @@ export const contactUs = actionClient
     const { name, email, message } = parsedInput;
     await resend.emails.send({
       from: "Underprotection Dev <noreply@underprotection.dev>",
-      to: ["mertcan.demirkaya@hotmail.com.tr"],
+      to: ["...@outlook.com"],
       subject: "Contact Us",
       react: ContactUs({ name, email, message }),
     });
